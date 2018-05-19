@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # TODO: Rewrite as loop and check for existance of file before downloading
 curl https://datasets.imdbws.com/name.basics.tsv.gz --output name.basics.tsv.gz
 curl https://datasets.imdbws.com/title.akas.tsv.gz --output title.akas.tsv.gz
