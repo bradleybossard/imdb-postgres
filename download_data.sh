@@ -8,3 +8,5 @@ curl https://datasets.imdbws.com/title.crew.tsv.gz --output title.crew.tsv.gz
 curl https://datasets.imdbws.com/title.episode.tsv.gz --output title.episode.tsv.gz
 curl https://datasets.imdbws.com/title.principals.tsv.gz --output title.principals.tsv.gz
 curl https://datasets.imdbws.com/title.ratings.tsv.gz --output title.ratings.tsv.gz
+
+gunzip *.tsv.gz
