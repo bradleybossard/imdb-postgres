@@ -22,7 +22,13 @@ sudo -u postgres createuser $USER
 sudo -u postgres createdb imdb
 ```
 
+### Import data
 
+The following script will create the table schemas and load the data in the database
+
+```
+psql imdb --file create_tables.sql
+```
 
 ### Links
 
