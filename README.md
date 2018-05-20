@@ -30,6 +30,12 @@ The following script will create the table schemas and load the data in the data
 psql imdb --file create_tables.sql
 ```
 
+### Querying the data
+
+```
+psql imdb
+```
+
 ### Links
 
 [The Internals of PostgreSQL : Introduction](http://www.interdb.jp/pg/index.html)
