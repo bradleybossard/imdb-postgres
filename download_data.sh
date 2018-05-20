@@ -9,4 +9,8 @@ curl https://datasets.imdbws.com/title.episode.tsv.gz --output title.episode.tsv
 curl https://datasets.imdbws.com/title.principals.tsv.gz --output title.principals.tsv.gz
 curl https://datasets.imdbws.com/title.ratings.tsv.gz --output title.ratings.tsv.gz
 
-gunzip *.tsv.gz
+gunzip ./*.tsv.gz
+
+# TODO: Add awk script for converting invalid birthYear/deathYear
+#       fields in name.basics.tsv to valid integers
+
